@@ -1,0 +1,17 @@
+bookstore{
+    background-color:linen;
+    font-family: 'Arial', serif;
+}
+title{
+    font-weight: bold;
+    color: maroon;
+    display: block;
+}
+author{
+    display: block;}
+year{
+    display: block;
+}
+price{
+    display: block;
+}

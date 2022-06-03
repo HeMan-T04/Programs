@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="xml1.css"?>
+<!DOCTYPE bookstore [
+<!ELEMENT bookstore (book)>
+<!ELEMENT book (title,author,book,price)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT author EMPTY>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+]>
+<bookstore>
+<book category="COOKING">
+<title lang="en">Title: How to Cook Indian</title>
+<author>Author: Sanjeev Kapoor</author>
+<year>Year: 2011</year>
+<price>Price: ₹1300.00</price>
+</book>
+<book category="FANTASY">
+<title lang="en">Title: Harry Potter and the Philosopher's Stone</title>
+<author>Author: J K. Rowling</author>
+<year>Year: 1997</year>
+<price>Price: ₹400.00</price>
+</book>
+<book category="FANTASY">
+<title lang="en">Title: Percy Jackson and the Lightning Thief</title>
+<author>Author: Rick Riordan</author>
+<year>Year: 2013</year>
+<price>Price: ₹230.00</price>
+</book>
+<book category="KNOWLEDGE">
+<title lang="en">Title: Neural Networks and Learning Machines</title>
+<author>Author: Simon Haykin</author>
+<year>Year: 2009</year>
+<price>Price: ₹371.00</price>
+</book>
+</bookstore>

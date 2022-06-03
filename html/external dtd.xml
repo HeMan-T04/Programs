@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE college SYSTEM "coll.dtd">
+<?xml-stylesheet type="text/css" href="xml2.css"?>
+<college>
+<teacher>
+<name>Name: Ms. Chhaya Gupta</name>
+<class>Class: 1-C</class>
+<subject>Subject: Web Technology</subject>
+</teacher>
+<teacher>
+<name>Name: Ms. Anupama Jha</name>
+<class>Class: 1-C</class>
+<subject> Subject: Foundation of Information Technology</subject>
+</teacher>
+<teacher>
+<name>Name: Ms. Neha Gupta</name>
+<class>Class: 1-C</class>
+<subject>Subject: C Programming</subject>
+</teacher>
+</college>

@@ -1,0 +1,7 @@
+<!DOCTYPE school [
+<!ELEMENT school (teacher)>
+<!ELEMENT teacher (name,class,subject)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT class (#PCDATA)>
+<!ELEMENT subject (#PCDATA)>
+]>

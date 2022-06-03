@@ -1,0 +1,5 @@
+name=input("Enter Your Name: ")
+name=name.strip()
+print(f"Name in UPPER CASE: {name.upper()}")
+print(f"Name in lower case: {name.lower()}")
+print(f"Name in Title Case: {name.title()}")
