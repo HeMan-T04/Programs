@@ -5,6 +5,7 @@ int main()
 	int index = 0, i = 0, n,
 		*marks; // this marks pointer hold the base address
 				// of the block created
+				//qsjfokqsnd
 	int ans;
 	marks = (int*)malloc(sizeof(
 		int)); // dynamically allocate memory using malloc
