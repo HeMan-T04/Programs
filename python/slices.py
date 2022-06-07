@@ -4,6 +4,7 @@ print("\t\t\t\tscore =",score)
 n="Y"
 A=["green","yellow","red"]
 while(n=="Y"):
+    #random variable used
     i= random.randint(0,3)  
     if i==3:
         input("Press enter to shoot :")
