@@ -1,7 +1,6 @@
 {
     "files.associations": {
-        "typeinfo": "c",
-        "stdio.h": "c"
+        "iostream": "cpp"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }
