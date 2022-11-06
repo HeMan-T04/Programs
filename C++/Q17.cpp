@@ -3,22 +3,22 @@
 using namespace std;
 class Calculator{
     private:
-        int a, b;
+        float a, b;
     public:
-        Calculator(int a, int b){
+        Calculator(float a, float b){
             this->a = a;
             this->b = b;
         }
-        int add(){
+        float add(){
             return a + b;
         }
-        int subtract(){
+        float subtract(){
             return a - b;
         }
-        int multiply(){
+        float multiply(){
             return a * b;
         }
-        int divide(){
+        float divide(){
             return a / b;
         }
         ~Calculator(){
@@ -26,7 +26,8 @@ class Calculator{
         }
 };
 int main(){
-    int a, b,ch;
+    float a, b;
+    int ch;
     cout<<"Enter the value of a: ";
     cin>>a;
     cout<<"Enter the value of b: ";

@@ -19,6 +19,7 @@ class Student{
             return count;
         }
 };
+int Student::count = 0;  
 int main(){
     Student s1;
     s1.setRollNo(1);
