@@ -1,4 +1,4 @@
-//Write a Program to illustrate concept of constructors in derived class in which constructor is used in both base class and derived class
+//Write a Program to illustrate concept of constructors in derived class in which Explicit invocation is there in absence of default constructor
 #include <iostream>
 #include <cstring>
 using namespace std;
@@ -7,7 +7,7 @@ class employee
     int emp_id;
     char emp_name[20];
     public:
-        employee(int a, char b[])
+        explicit employee(int a, char b[])
         {
             this->emp_id = a;
             strcpy(this->emp_name, b);

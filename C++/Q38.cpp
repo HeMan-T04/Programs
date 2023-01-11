@@ -1,4 +1,4 @@
-//Write a Program to illustrate concept of constructors in derived class in which constructor is used in both base class and derived class
+//Write a Program to illustrate concept of constructors in derived class in which constructor is used in base class and derived class without default constructor
 #include <iostream>
 #include <cstring>
 using namespace std;
