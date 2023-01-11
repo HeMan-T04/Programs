@@ -1,44 +1,28 @@
 // Write a Program to illustrate concept of constructors in derived class in which constructors are used in a multiple inherited class with default invocation
 #include <iostream>
 using namespace std;
+class Base1 {
+  public:
+    Base1() {
+        cout << "Base1 class default constructor called" << endl;
+    }
+};
 
-// C++ program to implement
-// constructor in multiple
-// inheritance
-#include<iostream>
-using namespace std;
-class A1
-{
+class Base2 {
   public:
-  A1()
-  {
-    cout << "Constructor of the base class A1 \n";
-  }
- 
+    Base2() {
+        cout << "Base2 class default constructor called" << endl;
+    }
 };
- 
-class A2
-{
+
+class Derived: public Base1, public Base2 {
   public:
-  A2()
-  {
-    cout << "Constructor of the base class A2 \n";
-  }
- 
+    Derived() {
+        cout << "Derived class default constructor called" << endl;
+    }
 };
- 
-class S: public A1, virtual A2
-{
-  public:
-  S(): A1(), A2()
-  {
-    cout << "Constructor of the derived class S \n";
-  }
-};
- 
-// Driver code
-int main()
-{
-  S obj;
-  return 0;
+
+int main() {
+    Derived obj;
+    return 0;
 }
