@@ -1,9 +1,7 @@
 // Write a Program to illustrate concept of constructors in derived class in which Explicit invocation is there in absence of default constructor
 
-using namespace std;
-
 #include <iostream>
-
+using namespace std;
 class Base
 {
 public:

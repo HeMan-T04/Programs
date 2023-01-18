@@ -22,4 +22,4 @@ class derived2: public derived1{
 int main() {
     derived2 obj;
     return 0;
-}
+}   

@@ -28,7 +28,7 @@ class salary: public employee
         {
             employee::getdata();
             cout << "Enter salary: ";
-            cin >> a;
+            cin >> s;
         }
         void display()
         {
